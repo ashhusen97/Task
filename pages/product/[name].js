@@ -15,11 +15,6 @@ import { useRouter } from "next/router";
 import React from "react";
 
 export default function ProductScreen({ data }) {
-  // const router = useRouter();
-  // router;
-  // console.log(first);
-  // const { name } = router.query;
-  // console.log("ssss", name);
   return (
     <Grid container spacing={2} padding={10}>
       <Grid item xs={12} sm={6} md={2} lg={6}>
